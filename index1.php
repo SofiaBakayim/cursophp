@@ -1,5 +1,3 @@
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
-
 <?php
 
 //comentario de linha 
@@ -25,9 +23,6 @@ include "./system/configuration.php"; //Se não encontrar o ficheiro configurati
 require "system/helpers.inc.php";//se não enconttrar o ficheiro helpers.php, dá erro fatal
 
 require_once "system/helpers.inc.php";//inc serve para dizer que um ficheiro está dentro de outro. colocar sempre o require_once pois assim permite que não se repita outra 
-
-// --- POO ----
-include "./system/core/Mensagem.php";
 
 echo "<hr><h1>Tipo de Dados</h1>";
 /* Tipos de dados */
@@ -108,32 +103,7 @@ echo SITE_DESCRIÇÃO;
 echo "<br>";
 
 echo "<hr>";
-//echo exibirInformacoesServidor();
+echo exibirInformacoesServidor();
 echo "<hr>";
 echo date("d-m-Y H:m:s", 1744223162);
-
-/* --- OOP/POO ---*/
-
-echo "<hr>";
-echo "<h1> Classes e Objetos </h1>";
-
-//Instanciar 
-$msg = new Mensagem(); /*O new faz a criação dos objetos*/
-var_dump($msg);
-
-echo "<hr>";
-
-//echo $msg->texto = "Mensagem alterada!";
-//echo $msg->renderizar(); //PAra chamar a função de uma class usamos (->)
-
-//Encadeamento de métodos
-echo $msg->sucesso("O seu registo foi efetuado com sucesso! Parabéns e um bem haja!")->renderizar();
-
-echo $msg->incompleto("O seu registo não foi efetuado com sucesso!")->renderizar();
-
-echo $msg->alertaGeral("primary", "Pretende apagar o seu Registo?")->renderizar();
-
-/*echo $msg->alertaGeral("O seu Registo foi apagado")->renderizar();*/
-
-
 ?>

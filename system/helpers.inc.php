@@ -55,6 +55,15 @@ function resumirTexto(string $texto, int $limite=100, string $continue='...'): s
     
 }
 
-    function validarEmail(string $email): bool {
+    function validarEmail(string $email): bool { //se quiser só ter uma linha uso return
     return filter_var($email, FILTER_VALIDATE_EMAIL) ? true : false;
     }
+
+    function exibirInformacoesServidor():void{ //Se eu quiser ter varias linhas uso void 
+        echo "<h2>Informações de Servidor</h2>";
+        echo "<pre>";
+        echo print_r($_SERVER);
+        echo "</pre>";
+    }
+
+
