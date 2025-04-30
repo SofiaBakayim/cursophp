@@ -1,0 +1,51 @@
+{
+    "packages": [
+        {
+            "name": "carloswph/valium-pt",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/carloswph/valium-pt.git",
+                "reference": "7596f243506c417e5afb50ea27f92a3e8105e8fe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/carloswph/valium-pt/zipball/7596f243506c417e5afb50ea27f92a3e8105e8fe",
+                "reference": "7596f243506c417e5afb50ea27f92a3e8105e8fe",
+                "shasum": ""
+            },
+            "time": "2021-04-14T12:09:03+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Valium\\PT\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Validation for the Portuguese market.",
+            "keywords": [
+                "Finanças",
+                "IBAN",
+                "NIF",
+                "contribuinte",
+                "niss",
+                "portugal",
+                "segurança social",
+                "validation"
+            ],
+            "support": {
+                "issues": "https://github.com/carloswph/valium-pt/issues",
+                "source": "https://github.com/carloswph/valium-pt/tree/v1.1.0"
+            },
+            "install-path": "../carloswph/valium-pt"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

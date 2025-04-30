@@ -1,0 +1,65 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "06dfc2e979dde8961673ce995fa6b1fe",
+    "packages": [
+        {
+            "name": "carloswph/valium-pt",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/carloswph/valium-pt.git",
+                "reference": "7596f243506c417e5afb50ea27f92a3e8105e8fe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/carloswph/valium-pt/zipball/7596f243506c417e5afb50ea27f92a3e8105e8fe",
+                "reference": "7596f243506c417e5afb50ea27f92a3e8105e8fe",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Valium\\PT\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Validation for the Portuguese market.",
+            "keywords": [
+                "Finanças",
+                "IBAN",
+                "NIF",
+                "contribuinte",
+                "niss",
+                "portugal",
+                "segurança social",
+                "validation"
+            ],
+            "support": {
+                "issues": "https://github.com/carloswph/valium-pt/issues",
+                "source": "https://github.com/carloswph/valium-pt/tree/v1.1.0"
+            },
+            "time": "2021-04-14T12:09:03+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "carloswph/valium-pt": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=8.1"
+    },
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}
